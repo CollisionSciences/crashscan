@@ -2871,6 +2871,193 @@ section.lazy-placeholder:after {
 .cid-rDhR5s1IRp H1 {
   text-align: center;
 }
+.cid-rDhVdsZrBO {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-rDhVdsZrBO .mbr-section-subtitle {
+  color: #767676;
+  text-align: center;
+  font-weight: 300;
+}
+.cid-rDhVdsZrBO .step {
+  width: 72px;
+  height: 72px;
+  font-size: 36px;
+  border-radius: 50%;
+  border: 2px solid #efefef;
+  padding-bottom: 0;
+}
+@media (min-width: 768px) {
+  .cid-rDhVdsZrBO .separline .step-wrapper {
+    position: relative;
+  }
+  .cid-rDhVdsZrBO .separline .step-wrapper:before,
+  .cid-rDhVdsZrBO .separline .step-wrapper:after {
+    top: 38px;
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: calc(50% + 15px - 36px - 8px);
+    background-color: #efefef;
+  }
+  .cid-rDhVdsZrBO .separline .step-wrapper:before {
+    left: -15px;
+  }
+  .cid-rDhVdsZrBO .separline .step-wrapper:after {
+    left: calc(50% + 8px + 36px);
+  }
+  .cid-rDhVdsZrBO .separline.last-child .step-wrapper:after,
+  .cid-rDhVdsZrBO .separline:nth-child(3n) .step-wrapper:after,
+  .cid-rDhVdsZrBO .separline:nth-child(3n+1) .step-wrapper:before {
+    background: none;
+  }
+}
+@media (max-width: 767px) {
+  .cid-rDhVdsZrBO .card:not(.last-child) {
+    padding-bottom: 1.5rem;
+  }
+}
+.cid-rDhVpw21Hc {
+  padding-top: 105px;
+  padding-bottom: 75px;
+  background-image: url("../../../assets/images/iot-environmental-1440x900.png");
+}
+.cid-rDhVpw21Hc H1 {
+  text-align: center;
+}
+.cid-rDhVbwTRdf {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #ffffff;
+}
+.cid-rDhVbwTRdf .mbr-section-subtitle {
+  color: #767676;
+  text-align: center;
+  font-weight: 300;
+}
+.cid-rDhVbwTRdf .step {
+  width: 64px;
+  height: 64px;
+  font-size: 32px;
+  border-radius: 50%;
+  border: 2px solid #efefef;
+}
+@media (max-width: 767px) {
+  .cid-rDhVbwTRdf .step {
+    width: 48px;
+    height: 48px;
+    font-size: 24px;
+  }
+}
+.cid-rDhVbwTRdf .separline {
+  position: relative;
+}
+.cid-rDhVbwTRdf .separline:after {
+  top: 68px;
+  left: 30px;
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: calc(100% - (32px + 4px) * 2);
+  background-color: #efefef;
+}
+@media (max-width: 767px) {
+  .cid-rDhVbwTRdf .separline:after {
+    top: 52px;
+    left: 22px;
+    height: calc(100% - 56px);
+  }
+}
+.cid-rDhVbwTRdf .media-block {
+  flex-shrink: 0;
+  -webkit-flex-shrink: 0;
+}
+@media (min-width: 992px) {
+  .cid-rDhVbwTRdf .media-block {
+    padding-right: 2rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-rDhVbwTRdf .media-block {
+    flex-basis: 100%;
+    -webkit-flex-basis: 100%;
+    padding-bottom: 2rem;
+  }
+}
+.cid-rDhV7Xb8wH {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: #ffffff;
+}
+.cid-rDhV7Xb8wH .progress {
+  width: 100%;
+}
+.cid-rDhV7Xb8wH progress {
+  height: 8px;
+}
+.cid-rDhV7Xb8wH h3 {
+  text-align: center;
+  font-weight: 300;
+}
+.cid-rDhV7Xb8wH .mbr-section-subtitle {
+  color: #767676;
+}
+.cid-rDhV7Xb8wH .progress_value {
+  position: relative;
+}
+.cid-rDhV7Xb8wH .progress_elements {
+  margin: 0 auto;
+}
+.cid-rDhV7Xb8wH .title-wrap {
+  display: flex;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+}
+.cid-rDhV7Xb8wH .progress1 .progressbar-number:before,
+.cid-rDhV7Xb8wH .progress2 .progressbar-number:before,
+.cid-rDhV7Xb8wH .progress3 .progressbar-number:before,
+.cid-rDhV7Xb8wH .progress4 .progressbar-number:before {
+  position: absolute;
+  right: 15px;
+  top: 0;
+}
+.cid-rDhV7Xb8wH progress[value]::-webkit-progress-bar {
+  background: rgba(206, 206, 206, 0.4);
+}
+.cid-rDhV7Xb8wH progress::-webkit-progress-value {
+  background: #149dcc;
+}
+.cid-rDhV7Xb8wH progress[value]::-moz-progress-bar {
+  background: #149dcc;
+}
+.cid-rDhV7Xb8wH progress::-ms-fill {
+  background: #149dcc;
+}
+.cid-rDhV7Xb8wH .progress1 .progressbar-number:before {
+  content: '70';
+}
+.cid-rDhV7Xb8wH .progress2 .progressbar-number:before {
+  content: '80';
+}
+.cid-rDhV7Xb8wH .progress3 .progressbar-number:before {
+  content: '90';
+}
+.cid-rDhV7Xb8wH .progress4 .progressbar-number:before {
+  content: '100';
+}
+.cid-rDhV7Xb8wH .progress-primary {
+  background: rgba(206, 206, 206, 0.4);
+  border: none;
+  outline: none;
+}
+.cid-rDhV7Xb8wH .progress-primary::-webkit-progress-bar {
+  background: rgba(206, 206, 206, 0.4);
+}
+.cid-rDhV7Xb8wH .progress_value span {
+  padding-left: 30px;
+}
 .cid-rDhRnLQupG {
   padding-top: 75px;
   padding-bottom: 45px;
