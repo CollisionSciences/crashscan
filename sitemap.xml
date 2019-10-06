@@ -6,9 +6,6 @@
 		<loc>https://www.collision-sciences.com/africa.html</loc>
 	</url>
 	<url>
-		<loc>https://www.collision-sciences.com/team.html</loc>
-	</url>
-	<url>
 		<loc>https://www.collision-sciences.com/FAQ.html</loc>
 	</url>
 	<url>
@@ -22,5 +19,8 @@
 	</url>
 	<url>
 		<loc>https://www.collision-sciences.com/services.html</loc>
+	</url>
+	<url>
+		<loc>https://www.collision-sciences.com/aboutus.html</loc>
 	</url>
 </urlset>
