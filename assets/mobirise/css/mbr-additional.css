@@ -3914,12 +3914,6 @@ section.lazy-placeholder:after {
 .cid-rD0pXho1aZ H1 {
   text-align: center;
 }
-.cid-rD0pXgozip {
-  background-image: url("../../../assets/images/wp2465563.jpg");
-}
-.cid-rD0pXgozip H1 {
-  text-align: center;
-}
 .cid-rE8Jr3xJrh {
   padding-top: 90px;
   padding-bottom: 90px;
@@ -3978,6 +3972,12 @@ section.lazy-placeholder:after {
     -webkit-flex-basis: 100%;
     padding-bottom: 2rem;
   }
+}
+.cid-rD0pXgozip {
+  background-image: url("../../../assets/images/wp2465563.jpg");
+}
+.cid-rD0pXgozip H1 {
+  text-align: center;
 }
 .cid-rD0pXhYWmE {
   background: #232323;
