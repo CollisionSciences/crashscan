@@ -3669,15 +3669,15 @@ section.lazy-placeholder:after {
 }
 .cid-rD0pXf4q73 {
   padding-top: 90px;
-  padding-bottom: 90px;
+  padding-bottom: 60px;
   background-image: url("../../../assets/images/iot-environmental-1440x900.png");
 }
 .cid-rD0pXf4q73 H1 {
   text-align: center;
 }
 .cid-rD0pXfM6ow {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 90px;
+  padding-bottom: 105px;
   background-image: url("../../../assets/images/phone-mockup.jpg");
 }
 .cid-rE8Jr3xJrh {
@@ -3747,7 +3747,47 @@ section.lazy-placeholder:after {
 .cid-rD0pXho1aZ H1 {
   text-align: center;
 }
+.cid-rPWkovv1RB {
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #efefef;
+}
+.cid-rPWkovv1RB h4 {
+  text-align: left;
+  font-weight: 500;
+}
+.cid-rPWkovv1RB p {
+  color: #767676;
+  text-align: left;
+  margin-bottom: 0;
+}
+.cid-rPWkovv1RB .card-img {
+  text-align: left;
+  -webkit-flex: 1 0 auto;
+  flex: 1 0 auto;
+  width: auto;
+}
+.cid-rPWkovv1RB .card-img span {
+  font-size: 72px;
+  color: #ff3366;
+}
+.cid-rPWkovv1RB .card-box {
+  padding-left: 1rem;
+  word-break: break-word;
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .cid-rPWkovv1RB .card-img {
+    text-align: left;
+    padding-bottom: 0.75rem;
+  }
+  .cid-rPWkovv1RB .card-box {
+    padding-left: 0;
+  }
+}
 .cid-rD0pXgozip {
+  padding-top: 135px;
+  padding-bottom: 135px;
   background-image: url("../../../assets/images/wp2465563.jpg");
 }
 .cid-rD0pXgozip H1 {
