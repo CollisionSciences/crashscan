@@ -3753,16 +3753,16 @@ section.lazy-placeholder:after {
   background-color: #efefef;
 }
 .cid-rPWkovv1RB h4 {
-  text-align: left;
+  text-align: center;
   font-weight: 500;
 }
 .cid-rPWkovv1RB p {
   color: #767676;
-  text-align: left;
+  text-align: center;
   margin-bottom: 0;
 }
 .cid-rPWkovv1RB .card-img {
-  text-align: left;
+  text-align: center;
   -webkit-flex: 1 0 auto;
   flex: 1 0 auto;
   width: auto;
@@ -3778,7 +3778,7 @@ section.lazy-placeholder:after {
 }
 @media (max-width: 991px) {
   .cid-rPWkovv1RB .card-img {
-    text-align: left;
+    text-align: center;
     padding-bottom: 0.75rem;
   }
   .cid-rPWkovv1RB .card-box {
