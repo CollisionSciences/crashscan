@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Collision Sciences-original",
-    "currentPage": "home.html",
+    "currentPage": "aboutus.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -517,7 +517,8 @@
       "settings": {
         "meta_descr": "Collision Sciences Africa is a full service Accident Reconstruction company offering insurers and coporations leading edge technology and services.",
         "title": "Collision Sciences Africa",
-        "order": 5
+        "order": 5,
+        "header_custom": "<meta http-equiv=\"Content-Security-Policy\" content=\"script-src 'self'\">"
       },
       "components": [
         {
@@ -1445,7 +1446,7 @@
         "meta_descr": "Frequently Asked Questions by users of CrashScan.  Chat with us if you have any questions.",
         "title": "FAQ - CrashScan",
         "order": 2,
-        "header_custom": "<script type=\"text/javascript\">window.$crisp=[];window.CRISP_WEBSITE_ID=\"d7b92903-1e6d-4c06-a232-9e481afd9243\";(function(){d=document;s=d.createElement(\"script\");s.src=\"https://client.crisp.chat/l.js\";s.async=1;d.getElementsByTagName(\"head\")[0].appendChild(s);})();</script>"
+        "header_custom": "<meta http-equiv=\"Content-Security-Policy\" content=\"script-src 'self'\">"
       },
       "components": [
         {
@@ -2091,7 +2092,7 @@
         "meta_descr": "Collision Sciences Africa (CSA) is a full service Accident Reconstruction company offering insurers and coporations leading edge technology and services.",
         "title": "Collision Sciences Africa (CSA)",
         "order": 6,
-        "header_custom": ""
+        "header_custom": "<meta http-equiv=\"Content-Security-Policy\" content=\"script-src 'self'\">"
       },
       "components": [
         {
@@ -3020,7 +3021,7 @@
         "title": "Support Desk",
         "order": 1,
         "html_before": "",
-        "header_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/3421151.js\"></script>\n<!-- End of HubSpot Embed Code -->",
+        "header_custom": "<meta http-equiv=\"Content-Security-Policy\" content=\"script-src 'self'\">",
         "footer_custom": ""
       },
       "components": [
@@ -3500,8 +3501,8 @@
       "settings": {
         "title": "CrashScan App - Accident Claim Reports",
         "meta_descr": "Collision Sciences Inc. (CSI) is a global technology and information provider that enables insurance carriers and corporations significant financial and operational benefits through scaled access and intelligent application of vehicle accident data, including \"black box\" pre-crash data, biomechanical injury severity data, diagnostic repair data, and reconstructed motor incident data.  CSI offers a universal, mobile-app-based EDR (Event Data Recorder) tool, and is the only market option that offers affordable hardware, included user training, dedicated client centric data collection, customizable cloud data analysis, strategic alerting and reporting, and engineering tech support for users.",
-        "header_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/3421151.js\"></script>\n<!-- End of HubSpot Embed Code -->",
-        "footer_custom": "<meta http-equiv=\"Content-Security-Policy\" content=\"script-src 'self'\">",
+        "header_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/3421151.js\"></script>\n<!-- End of HubSpot Embed Code -->\n\n<meta http-equiv=\"Content-Security-Policy\" content=\"script-src 'self'\">",
+        "footer_custom": "",
         "html_before": "",
         "order": 9
       },
@@ -4290,7 +4291,7 @@
         "meta_descr": "Collision Sciences Inc. (CSI) is a global technology and information provider that enables insurance carriers and corporations significant financial and operational benefits through scaled access and intelligent application of vehicle accident data, including \"black box\" pre-crash data, biomechanical injury severity data, diagnostic repair data, and reconstructed motor incident data.  CSI offers a universal, mobile-app-based EDR (Event Data Recorder) tool, and is the only market option that offers affordable hardware, included user training, dedicated client centric data collection, customizable cloud data analysis, strategic alerting and reporting, and engineering tech support for users.",
         "title": "About Collision Sciences - Meet the Team",
         "order": 10,
-        "header_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/3421151.js\"></script>\n<!-- End of HubSpot Embed Code -->"
+        "header_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/3421151.js\"></script>\n<!-- End of HubSpot Embed Code -->\n\n<meta http-equiv=\"Content-Security-Policy\" content=\"script-src 'self'\">"
       },
       "components": [
         {
@@ -4977,7 +4978,8 @@
       "settings": {
         "meta_descr": "Collision Sciences Africa (CSA) is a full service Accident Reconstruction company offering insurers and coporations leading edge technology and services.",
         "title": "team",
-        "order": 7
+        "order": 7,
+        "header_custom": "<meta http-equiv=\"Content-Security-Policy\" content=\"script-src 'self'\">"
       },
       "components": [
         {
@@ -5752,7 +5754,7 @@
         "meta_descr": "Get Started with CrashScan.  Purchase an EDR Kit and we'll be in touch with your app login.",
         "title": "Get Started - EDR Kit",
         "order": 3,
-        "header_custom": "<script type=\"text/javascript\">window.$crisp=[];window.CRISP_WEBSITE_ID=\"d7b92903-1e6d-4c06-a232-9e481afd9243\";(function(){d=document;s=d.createElement(\"script\");s.src=\"https://client.crisp.chat/l.js\";s.async=1;d.getElementsByTagName(\"head\")[0].appendChild(s);})();</script>"
+        "header_custom": "<meta http-equiv=\"Content-Security-Policy\" content=\"script-src 'self'\">"
       },
       "components": [
         {
