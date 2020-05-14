@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Collision Sciences-original",
-    "currentPage": "aboutus.html",
+    "currentPage": "home.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -65,7 +65,7 @@
         "main": true,
         "title": "Collision Sciences - Information Intelligence & Innovation Technology",
         "meta_descr": "Collision Sciences Inc. (CSI) is a global technology and information provider that enables insurance carriers and corporations significant financial and operational benefits through scaled access and intelligent application of vehicle accident data, including \"black box\" pre-crash data, biomechanical injury severity data, diagnostic repair data, and reconstructed motor incident data.  CSI offers a universal, mobile-app-based EDR (Event Data Recorder) tool, and is the only market option that offers affordable hardware, included user training, dedicated client centric data collection, customizable cloud data analysis, strategic alerting and reporting, and engineering tech support for users.",
-        "header_custom": "",
+        "header_custom": "<meta http-equiv=\"Content-Security-Policy\" content=\"script-src 'self'\">",
         "footer_custom": "",
         "html_before": ""
       },
@@ -2090,7 +2090,8 @@
       "settings": {
         "meta_descr": "Collision Sciences Africa (CSA) is a full service Accident Reconstruction company offering insurers and coporations leading edge technology and services.",
         "title": "Collision Sciences Africa (CSA)",
-        "order": 6
+        "order": 6,
+        "header_custom": ""
       },
       "components": [
         {
@@ -3500,7 +3501,7 @@
         "title": "CrashScan App - Accident Claim Reports",
         "meta_descr": "Collision Sciences Inc. (CSI) is a global technology and information provider that enables insurance carriers and corporations significant financial and operational benefits through scaled access and intelligent application of vehicle accident data, including \"black box\" pre-crash data, biomechanical injury severity data, diagnostic repair data, and reconstructed motor incident data.  CSI offers a universal, mobile-app-based EDR (Event Data Recorder) tool, and is the only market option that offers affordable hardware, included user training, dedicated client centric data collection, customizable cloud data analysis, strategic alerting and reporting, and engineering tech support for users.",
         "header_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/3421151.js\"></script>\n<!-- End of HubSpot Embed Code -->",
-        "footer_custom": "",
+        "footer_custom": "<meta http-equiv=\"Content-Security-Policy\" content=\"script-src 'self'\">",
         "html_before": "",
         "order": 9
       },
@@ -4289,7 +4290,7 @@
         "meta_descr": "Collision Sciences Inc. (CSI) is a global technology and information provider that enables insurance carriers and corporations significant financial and operational benefits through scaled access and intelligent application of vehicle accident data, including \"black box\" pre-crash data, biomechanical injury severity data, diagnostic repair data, and reconstructed motor incident data.  CSI offers a universal, mobile-app-based EDR (Event Data Recorder) tool, and is the only market option that offers affordable hardware, included user training, dedicated client centric data collection, customizable cloud data analysis, strategic alerting and reporting, and engineering tech support for users.",
         "title": "About Collision Sciences - Meet the Team",
         "order": 10,
-        "header_custom": "<IfModule mod_headers.c>\nHeader set Strict-Transport-Security \"max-age=31536000; includeSubDomains; preload\" env=HTTPS\n</IfModule>\n# Extra Security Headers\n<IfModule mod_headers.c>\n\tHeader set X-XSS-Protection \"1; mode=block\"\n\tHeader always append X-Frame-Options SAMEORIGIN\n\tHeader set X-Content-Type-Options nosniff\n\tHeader set Referrer-Policy \"no-referrer\"\n</IfModule>\n\n<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/3421151.js\"></script>\n<!-- End of HubSpot Embed Code -->"
+        "header_custom": "<!-- Start of HubSpot Embed Code -->\n<script type=\"text/javascript\" id=\"hs-script-loader\" async defer src=\"//js.hs-scripts.com/3421151.js\"></script>\n<!-- End of HubSpot Embed Code -->"
       },
       "components": [
         {
@@ -4426,33 +4427,6 @@
             }
           },
           "_name": "header2",
-          "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/smartmockups-k79kychs-2000x1332.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#45adcf\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://youtu.be/_UGpipBYnfw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#16125e\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Professional Scan Tool &amp; PDF Reports<br></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\"></h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Buying or selling a used vehicle? \n<br>Performing collision inspections?<br><br>You need our CrashScan app and an <a href=\"https://www.amazon.com/OBDLink-Android-Windows-Professional-Grade-Performance/dp/B07JFRFJG6/ref=sr_1_6?ie=UTF8&qid=1541797661&sr=8-6&keywords=obdlink+mx%2B\" target=\"_blank\" class=\"text-warning\">OBDLink MX+</a>,&nbsp;period.<br></p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-white-outline\" href=\"https://play.google.com/store/apps/details?id=ca.collisionsciences.app&hl=en_CA\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-android mbr-iconfont mbr-iconfont-btn\"></span>ANDROID</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"https://itunes.apple.com/us/app/crashscan-accident-detector/id1360629269\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-apple mbr-iconfont mbr-iconfont-btn\"></span>iOS APP</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
-          "_anchor": "header2-t",
-          "_isUserblock": true,
-          "_sourceTheme": "mobirise4",
-          "_cid": "rXb981o0jC",
-          "_protectedParams": [],
-          "_global": false,
-          "_once": false,
-          "_params": {}
-        },
-        {
-          "_styles": {
-            "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 15px)",
-              "padding-bottom": "(@paddingBottom * 15px)"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "H1": {
-              "text-align": "center"
-            }
-          },
-          "_name": "header2",
           "_customHTML": "<section group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n         'mbr-fullscreen': fullScreen,\n         'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\">\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/iot-environmental-1440x900.png\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#45adcf\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://youtu.be/_UGpipBYnfw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#16125e\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.6\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-md-center\">\n            <div class=\"mbr-white col-md-10\">\n                <h1 class=\"mbr-section-title mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\">Driving Intelligence from Car to Cloud<br></h1>\n                <h3 class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">Diagnostics, AI &amp; Data Analytics</h3>\n                <p class=\"mbr-text pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">Introducting the world’s first professional and cloud-based diagnostic \"Black box\" crash data retrieval solution that delivers both \"big data\" and easy-to-read reports, relevant to every accident claim, vehicle purchase, or inspection.</p>\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-md btn-white-outline\" href=\"https://play.google.com/store/apps/details?id=ca.collisionsciences.app&hl=en_CA\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-android mbr-iconfont mbr-iconfont-btn\"></span>ANDROID</a>\n                    <a class=\"btn btn-md btn-white-outline\" href=\"https://itunes.apple.com/us/app/crashscan-accident-detector/id1360629269\" data-app-placeholder=\"Type Text\" target=\"_blank\"><span class=\"socicon socicon-apple mbr-iconfont mbr-iconfont-btn\"></span>iOS APP</a></div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_anchor": "header2-m",
           "_isUserblock": true,
@@ -4487,7 +4461,7 @@
             }
           },
           "_name": "video2",
-          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#150e0e\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://youtu.be/TAnix9tLM9Y?loop=0&autoplay=1\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
+          "_customHTML": "<section group=\"Images & Videos\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"4\" step=\"1\" condition=\"fullWidth==false\">\n    <input type=\"range\" inline title=\"Width\" name=\"videoSize\" min=\"20\" max=\"100\" value=\"100\" step=\"1\" condition=\"fullWidth==false\">\n\n    <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#150e0e\" condition=\"fullWidth==false\">\n    <input type=\"checkbox\" title=\"Gradient\" name=\"gradientBg\" condition=\"fullWidth==false\">\n    <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#149dcc\" condition=\"gradientBg\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n    <figure class=\"mbr-figure align-center\" mbr-class=\"{'container':fullWidth==false}\">\n        <div class=\"video-block\" mbr-style=\"{'width':videoSize+'%'}\">\n            <div mbr-video>\n                <iframe src=\"https://youtu.be/TAnix9tLM9Y?loop=0&autoplay=0\"></iframe>\n            </div>\n        </div>\n    </figure>\n</section>",
           "_cid": "rD098yZKrR",
           "_anchor": "video2-9",
           "_protectedParams": [],
