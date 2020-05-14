@@ -27,7 +27,18 @@
   <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
   
   
-  <!-- Start of HubSpot Embed Code -->
+  <IfModule mod_headers.c>
+Header set Strict-Transport-Security "max-age=31536000; includeSubDomains; preload" env=HTTPS
+</IfModule>
+# Extra Security Headers
+<IfModule mod_headers.c>
+	Header set X-XSS-Protection "1; mode=block"
+	Header always append X-Frame-Options SAMEORIGIN
+	Header set X-Content-Type-Options nosniff
+	Header set Referrer-Policy "no-referrer"
+</IfModule>
+
+<!-- Start of HubSpot Embed Code -->
 <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/3421151.js"></script>
 <!-- End of HubSpot Embed Code -->
 </head>
@@ -108,7 +119,7 @@
     
 </section>
 
-<section class="testimonials5 cid-rflNPHw76J" id="testimonials5-f">
+<section class="testimonials5 cid-rYZmHqGbon" id="testimonials5-v">
 
     
 
@@ -280,23 +291,23 @@
     </div>   
 </section>
 
-<section class="mbr-section info3 cid-rD0creTfIb mbr-parallax-background" id="info3-b">
+<section class="cid-rXb981o0jC mbr-fullscreen" id="header2-t">
 
     
 
-    <div class="mbr-overlay" style="opacity: 0.6; background-color: rgb(35, 35, 35);">
-    </div>
+    <div class="mbr-overlay" style="opacity: 0.2; background-color: rgb(22, 18, 94);"></div>
 
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="media-container-column title col-12 col-md-10">
-                <h2 class="align-left mbr-bold mbr-white pb-3 mbr-fonts-style display-2">Find the truth in claims investigations</h2>
+    <div class="container align-center">
+        <div class="row justify-content-md-center">
+            <div class="mbr-white col-md-10">
                 
-                <p class="mbr-text align-left mbr-white mbr-fonts-style display-7">Collision Sciences offers a universal, mobile-app-based EDR (Event Data Recorder) tool, and is the only market option that offers affordable hardware, included user training, dedicated client centric data collection, customizable cloud data analysis, strategic alerting and reporting, and engineering tech support for users.</p>
-                <div class="mbr-section-btn align-left py-4"><a class="btn btn-primary display-4" href="https://collisionsciences.ca/reports/check_support/" target="_blank">EDR VEHICLE SUPPORT</a></div>
+                
+                
+                
             </div>
         </div>
     </div>
+    
 </section>
 
 <section class="cid-rfrBvK4GTA mbr-parallax-background" id="header2-m">
