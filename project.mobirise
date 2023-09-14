@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Collision Sciences-original",
-    "currentPage": "home.html",
+    "currentPage": "services.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -46,7 +46,7 @@
       }
     ],
     "versionFirst": "4.7.6",
-    "uniqCompNum": 26,
+    "uniqCompNum": 27,
     "versionPublish": "5.9.4",
     "favicon": false,
     "noImageResize": "",
@@ -65,7 +65,7 @@
     "sitemapSwitcher": "on",
     "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\r\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-28NZV9KTP8\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag('js', new Date());\r\n\r\n  gtag('config', 'G-28NZV9KTP8');\r\n</script>\r\n",
     "imageResize": true,
-    "publishChangesOnly": false,
+    "publishChangesOnly": true,
     "mbrsiteDomain": "collisionsciences-1",
     "usedWebp": false
   },
