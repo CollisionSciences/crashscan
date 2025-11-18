@@ -1076,6 +1076,10 @@ section.lazy-placeholder:after {
 .cid-qTkA127IK8 H1 {
   text-align: center;
 }
+.cid-qTkA127IK8 .mbr-text,
+.cid-qTkA127IK8 .mbr-section-btn {
+  color: #f7ed4a;
+}
 .cid-rkhzswDpRq .navbar {
   padding: .5rem 0;
   background: #232323;
